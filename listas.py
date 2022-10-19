@@ -67,3 +67,52 @@ dicionario = {
 
 print(dicionario[1]['qualificação'][0])
 
+""" matriz = [
+    [[4, 5, 6], [7, 8, 9], [10, 11, 12]],
+    [2, 4, 6],
+    [4, 8, 12]
+]
+
+print(matriz[0])
+print(matriz[0][1])
+print(matriz[0][2])
+print(matriz[2][0])
+matriz[0][1] = 3, 4, 5
+print(matriz)
+del matriz[2][1]
+print(matriz) """
+
+'''nome = ""
+while len(nome)== 0:
+    nome = input("Qual o seu nome?")
+print(f"Olá, {nome}!")'''
+
+'''matriz = [
+    [4, 5, 6],
+    [2, 4, 6],
+    [4, 8, 12]
+]'''
+
+'''for linha in matriz:
+    for coluna in linha:
+        print(coluna)'''
+
+'''for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print(matriz[i][j])'''
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for i in range(len(matriz)):
+    for c in range(len(matriz[i])):
+        if i == c:
+            print(matriz[i][c])
+
+        if (matriz[i][c] % 2) == 0:
+            print(f"{matriz[i][c]} -> É par")
+        else:
+            print(f"{matriz[i][c]} -> É ímpar")
